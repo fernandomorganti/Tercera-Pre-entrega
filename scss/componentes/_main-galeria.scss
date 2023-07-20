@@ -1,0 +1,23 @@
+.galeria {
+    text-align: center;
+    justify-content: center;
+    .fotos {
+        display: flex;
+        width: 500px;
+        height: 400px;
+        justify-content: center;
+        img{
+            width: 50px;
+            flex-grow: 1;
+            object-fit: cover;
+            opacity: 0.8;
+            transition: 0.5s ease;
+        }
+        img:hover {
+            cursor: crosshair;
+            width: 400px;
+            opacity: 1;
+            filter: contrast(120%);
+        }
+    }
+  }

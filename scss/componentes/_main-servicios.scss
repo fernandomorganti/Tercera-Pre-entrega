@@ -1,0 +1,26 @@
+main{
+  #servicios {
+    display: flex;
+    background-color:black;
+    width: 100%;
+    height: 100%;
+    section {
+      width: 25%;
+      height: 100%;
+      text-align: center;
+      margin-top: 20px;
+      img {
+        width: 200px;
+        height: 120px;
+      }
+      p {
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 180%;
+        font-size: 1rem;
+        padding: 10px;
+        margin-inline: 35px;
+      }
+    }
+  }
+}

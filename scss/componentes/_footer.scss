@@ -1,0 +1,18 @@
+footer { 
+    grid-area: footer;
+    background-color: red;
+    #comentarioPie {
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+    }
+    #whatsapp {
+        margin-right: 20px;
+        img {
+            width: 4%;
+            height: 4%;
+            float: right;
+        }
+       
+    }
+}
