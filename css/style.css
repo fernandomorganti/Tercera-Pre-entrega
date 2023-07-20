@@ -1,6 +1,7 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  box-sizing: border-box; }
 
 .contenedor {
   display: grid;
@@ -31,10 +32,10 @@ header {
     text-align: center; }
 
 main .contacto {
-  display: flex;
+  display: block;
   background-color: black;
   width: 60%;
-  height: 100%;
+  height: auto;
   justify-content: center; }
   main .contacto h1 {
     font-size: 2rem;
@@ -55,8 +56,21 @@ main .contacto {
 
 main .mapa {
   width: 40%;
-  background-color: #f50505;
-  text-align: center; }
+  height: auto;
+  background-color: black;
+  text-align: center;
+  padding: 20px; }
+  main .mapa img {
+    width: 65%;
+    height: 65%;
+    float: center; }
+  main .mapa .domicilio {
+    text-align: center;
+    width: 100%;
+    height: 40%; }
+    main .mapa .domicilio p {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: white; }
 
 .galeria {
   text-align: center;
@@ -86,6 +100,7 @@ main {
   background-color: black; }
   main aside {
     width: 40%;
+    height: auto;
     background-color: black;
     text-align: center;
     padding: 20px; }
@@ -99,6 +114,7 @@ main {
         border-radius: 200px; }
   main section {
     width: 60%;
+    height: auto;
     background-color: black;
     text-align: center; }
     main section #texto {
@@ -302,7 +318,9 @@ main {
 
 nav {
   grid-area: nav;
-  background-color: #494949; }
+  background-color: #494949;
+  width: 100%;
+  height: auto; }
   nav .botonera {
     display: flex;
     font-size: 0;

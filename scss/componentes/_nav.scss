@@ -1,6 +1,8 @@
 nav {
     grid-area: nav;
     background-color: rgb(73, 73, 73);
+    width: 100%;
+    height: auto;
     .botonera {
         display: flex;
         font-size: 0;
